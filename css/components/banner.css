@@ -1,0 +1,50 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  height: 400px;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.root {
+  --orange: #BA5C12;
+  --black: #3A3335;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.banner h1 {
+  color: white;
+}
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+.highlight-orange {
+  background-color: var(--orange);
+  opacity: 1;
+  padding: 1px 3px;
+  color: white;
+  border-radius: 3px;
+  transition: background-color 0.5s;
+}
+.banner-button {
+  background-color: var(--orange);
+  border-color: var(--orange);
+}
+.banner-button:hover {
+  background-color: var(--black);
+  border-color: var(--black);
+}

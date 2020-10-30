@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Haunted House</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&family=Syne+Mono&display=swap" rel="stylesheet">
+    <!-- We need this line below for responsiveness! -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <iframe src="laugh.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>
+    <audio autoplay id="playAudio">
+      <source src="laugh.mp3">
+    </audio>
+    <!-- code a Hero / Banner section -->
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/mansion.jpg);">
+        <div class="container text-center">
+          <h1>"Welcome" to Le Haunted Mansion</h1>
+          <p>The <strong><span class="highlight-orange">only</span></strong> thing scarier than the next lockdown</p>
+          <a class="btn btn-primary btn-lg banner-button" href="#">Book a stay</a>
+        </div>
+      </div>
+
+    <!-- code a "How it works" section -->
+    <div class="container py-5">
+      <h2 class="text-center">Enter if you dare!</h2>
+        <div class="card-container d-flex justify-content-around align-items-center mt-4">
+          <div class="card" style="background-image: url('https://images.unsplash.com/photo-1526547462705-121430d02c2c?ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80')">
+            <h4>SPOOKY ROOM</h4>
+          </div>
+          <div class="card" id="candy" style="background-image: url('https://images.unsplash.com/photo-1517086822157-2b0358e7684a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80')">
+            <img id= "chuckie" src="https://images.unsplash.com/photo-1602306081673-f26c56e0c0c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" alt="">
+            <h4>CANDY ROOM</h4>
+          </div>
+          <div class="card" style="background-image: url('https://images.unsplash.com/photo-1541017978248-d477a794977d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2932&q=80')">
+            <h4>BLOOD ROOM</h4>
+          </div>
+        </div>
+    </div>
+
+    <!-- code a footer -->
+    <div class="footer">
+      <div class="links">
+        <p>This website was coded with <i class="fas fa-heart"></i> at Le Wagon.</p>
+
+      </div>
+    </div>
+
+  </body>
+</html>
